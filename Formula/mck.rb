@@ -6,6 +6,6 @@ class Mck < Formula
   sha256 "906fed00420b8c14b62d73e2b03060e6dacbe09bea3a6caeb80e4464cc9afb67"
 
   def install
-    bin.install "mck"
+    bin.install "dist/0.0.1/darwin_amd64/mck"
   end
 end
