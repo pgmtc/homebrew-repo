@@ -1,9 +1,9 @@
 class S3copy < Formula
-  desc "s3copy - "
+  desc "s3copy - tool for pushing files to s3"
   homepage "https://gitlab.com/pgmtc/citools"
-  url "https://s3.eu-west-2.amazonaws.com/pgmtc-releases/s3copy/s3copy-0.0.1g-darwin_amd64.tar.gz"
-  version "0.0.1g"
-  sha256 "fb4003f6b1329c8b703016c0482842c91448dc5e73ddbba09377b8cc05bcde1e"
+  url "https://s3.eu-west-2.amazonaws.com/pgmtc-releases/s3copy/s3copy-0.0.2-darwin_amd64.tar.gz"
+  version "0.0.2"
+  sha256 "79d7b21a2cbc49ecb2543375d104d011f80f663f897fa1d5b596572b100946ff"
 
   def install
     bin.install "s3copy"
