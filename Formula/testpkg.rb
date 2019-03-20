@@ -4,7 +4,7 @@ class Testpkg < Formula
   homepage "https://gitlab.com/pgmtc/citools"
   url "http://google.com/something.tar.gz"
   version "0.0.1"
-  sha256 "abcdefgh"
+  sha256 "abcdefghsdf"
   def install
     bin.install "testpkg"
   end
