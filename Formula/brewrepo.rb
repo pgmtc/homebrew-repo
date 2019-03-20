@@ -1,9 +1,9 @@
 class Brewrepo < Formula
   desc "brewrepo - tool for publishing binary to brew repository"
   homepage "https://gitlab.com/pgmtc/citools"
-  url "https://s3.eu-west-2.amazonaws.com/pgmtc-releases/brewrepo/brewrepo-0.0.2-darwin_amd64.tar.gz"
-  version "0.0.2"
-  sha256 "d6b6f7753237965444a13d639651f45b63cb377436f960a89343a04a78695e29"
+  url "https://s3.eu-west-2.amazonaws.com/pgmtc-releases/brewrepo/brewrepo-0.0.2b-darwin_amd64.tar.gz"
+  version "0.0.2b"
+  sha256 "ee02aec5073258d00045b30f5cf6a5ad2903997b0a385416846bf34d9ea14848"
 
   def install
     bin.install "brewrepo"
