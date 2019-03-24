@@ -4,7 +4,7 @@ class Ci < Formula
   homepage "https://gitlab.com/pgmtc/citools"
   url "https://s3.eu-west-2.amazonaws.com/pgmtc-releases/ci/ci-0.0.5-darwin_amd64.tar.gz"
   version "0.0.5"
-  sha256 "1d948d3c6d85ba00860ae115bc99fe8ef6a70f37acfc9d5c1872a1e15628283c"
+  sha256 "e68fdb236ea580068af7508f31974c18198c946e39b822abda2b290d329949fd"
   def install
     bin.install "ci"
   end
