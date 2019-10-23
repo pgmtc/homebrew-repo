@@ -11,3 +11,7 @@ brew update
 ```bash
 brew install mck
 ```
+* le: https://gitlab.com/pgmtc/le
+```bash
+brew install le
+```
